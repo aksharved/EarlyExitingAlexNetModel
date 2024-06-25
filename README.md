@@ -1,4 +1,4 @@
-# CIFAR-10
+# CIFAR-10: Early Exiting and Full CNN Model
 
 This repository contains the code for training and evaluating two machine learning models: an Early Exit Model and a Full Model. The goal is to increase accuracy by training these models separately and using an early exit mechanism based on a confidence threshold.
 
