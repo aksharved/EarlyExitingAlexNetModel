@@ -6,19 +6,16 @@ This repository contains the code for training and evaluating two machine learni
 
 - `early_exit/`: Contains the code for the Early Exit Model.
   - `early_exit_model.py`: Defines the Early Exit Model architecture.
-  - `training_early_exit.py`: Training script for the Early Exit Model.
 
 - `full_model/`: Contains the code for the Full Model.
   - `full_model.py`: Defines the Full Model architecture.
-  - `training_full_model.py`: Training script for the Full Model.
 
+- `training/`: Contains the code for training both of the models simaltaneously.
+  - `training.py`: Defines the training loop for both models for 50 epochs.
+  
 - `evaluation/`: Contains the evaluation script.
   - `evaluate_models.py`: Script to load the trained models and evaluate them using a confidence threshold for early exit.
 
-- `data/`: Contains data-related scripts.
-  - `download_data.py`: Script to download and preprocess the CIFAR-10 dataset.
-
-- `saved_models/`: Directory to save and load trained model weights.
 
 ### Dataset: CIFAR-10
 
